@@ -1,0 +1,13 @@
+{
+    "name":"ObjDist",
+    "version":"0.0.1",
+    "main":"lib/ObjDist.js",
+    "dependencies":{
+        "KVCObject":">=0.0.6"
+    },
+    "devDependencies":{
+        "socket.io":">=0.9",
+        "socket.io-client":">=0.9",
+        "ObjSync":"0.1"
+    }
+}
