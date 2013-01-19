@@ -1,6 +1,6 @@
 {
     "name":"ObjDist",
-    "version":"0.0.1",
+    "version":"0.1.0b-1",
     "main":"lib/ObjDist.js",
     "dependencies":{
         "KVCObject":">=0.0.6"
