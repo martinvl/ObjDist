@@ -1,13 +1,19 @@
 {
-    "name":"ObjDist",
+    "name":"objdist",
     "version":"0.1.0b-1",
     "main":"lib/ObjDist.js",
-    "dependencies":{
-        "KVCObject":">=0.0.6"
+    "description":"Distributes objects between server and clients via Socket.IO-socket-like transports.",
+    "keywords":["object distribution", "channel", "minimal"],
+    "repository":{ "type":"git",
+        "url":"https://github.com/martinvl/ObjDist.git"
     },
-    "devDependencies":{
-        "socket.io":">=0.9",
-        "socket.io-client":">=0.9",
-        "ObjSync":"0.1"
+    "author":{
+        "name":"Martin V. Larsen",
+        "email":"martin@melvon.com"
+    },
+    "homepage":"https://github.com/martinvl/ObjDist",
+    "bugs":"https://github.com/martinvl/ObjDist/issues",
+    "dependencies":{
+        "kvcobj":">=0.1.0"
     }
 }

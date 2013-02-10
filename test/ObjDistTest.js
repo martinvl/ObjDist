@@ -2,7 +2,7 @@ var assert = require('chai').assert;
 var io = require('socket.io');
 var io_client = require('socket.io-client');
 var ObjDist = require('../lib/ObjDist');
-var ObjSync = require('ObjSync');
+var ObjSync = require('objsync');
 
 var PORT = 5555;
 
