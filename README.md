@@ -1,4 +1,4 @@
-ObjSync
+ObjDist
 =========
 Distributes objects between server and clients via
 [Socket.IO](http://socket.io)-socket-like transports. Works on a
@@ -11,7 +11,7 @@ Use [ObjSync](https://github.com/martinvl/ObjSync) on clients in order to receiv
 Public API
 ---------
 * **(constructor)**(< _Socket.IO-server-like_>transport, [< _object_ >options])  
-    Creates and returns a new ObjSync object, which communicates via `transport`.  
+    Creates and returns a new ObjDist object, which communicates via `transport`.  
     Valid options:
     * **prefix** - _string_ - prefix to all channel names. Cannot be empty
     string.
