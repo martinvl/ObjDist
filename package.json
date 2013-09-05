@@ -1,6 +1,6 @@
 {
     "name":"objdist",
-    "version":"0.1.0-3",
+    "version":"0.1.0-4",
     "main":"lib/ObjDist.js",
     "description":"Object distribution between server and clients via Socket.IO-socket-like transports.",
     "keywords":["object distribution", "channel", "minimal"],
